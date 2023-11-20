@@ -1,0 +1,274 @@
+Circuit: * D:\Downloads\Draft1.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Instance "m:m1:1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:m2:1": Width narrower than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+Gmin = 0.000223007
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 0.000186568
+vernier = 0.015625
+vernier = 0.0208333
+Gmin = 0.000180137
+vernier = 0.0277778
+vernier = 0.037037
+Gmin = 0.000168578
+vernier = 0.0493827
+Gmin = 0.000151406
+vernier = 0.0658435
+vernier = 0.0877914
+Gmin = 0.000127052
+vernier = 0.0438957
+vernier = 0.0219478
+vernier = 0.0292638
+Gmin = 0.000122726
+vernier = 0.0390184
+Gmin = 0.000112727
+vernier = 0.0520245
+vernier = 0.0693659
+Gmin = 9.81158e-05
+vernier = 0.0924879
+vernier = 0.123317
+Gmin = 7.88111e-05
+vernier = 0.164423
+Gmin = 5.53579e-05
+vernier = 0.21923
+vernier = 0.292307
+Gmin = 3.1243e-05
+vernier = 0.389743
+vernier = 0.519657
+Gmin = 1.28097e-05
+vernier = 0.692876
+vernier = 0.346438
+vernier = 0.173219
+Gmin = 6.40088e-06
+vernier = 0.0866095
+vernier = 0.0433047
+vernier = 0.0216524
+vernier = 0.0108262
+Gmin = 6.00517e-06
+vernier = 0.00541309
+vernier = 0.00270655
+vernier = 0.00135327
+vernier = 0.000676636
+Gmin = 5.99908e-06
+vernier = 0.000507477
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source Step = 87.8995%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source stepping failed
+
+Pseudo transient terminated at 100.141 s, solution accepted ready or not!
+Ignoring empty pin current: Ix(u1:u3:vcc)
+Ignoring empty pin current: Ix(u1:u3:vee)
+Ignoring empty pin current: Ix(u1:u3:vin+)
+Ignoring empty pin current: Ix(u1:u3:vin-)
+Ignoring empty pin current: Ix(u1:u1:vimon)
+Ignoring empty pin current: Ix(u1:u2:vc+)
+Ignoring empty pin current: Ix(u1:u2:vc-)
+Ignoring empty pin current: Ix(u1:u5:vc+)
+Ignoring empty pin current: Ix(u1:u5:vc-)
+Ignoring empty pin current: Ix(u1:u5:en)
+Ignoring empty pin current: Ix(u1:u5:mid)
+Ignoring empty pin current: Ix(u1:vccs_lim_1:vc+)
+Ignoring empty pin current: Ix(u1:vccs_lim_1:vc-)
+Ignoring empty pin current: Ix(u1:iqpos:vc+)
+Ignoring empty pin current: Ix(u1:iqpos:vc-)
+Ignoring empty pin current: Ix(u1:iqneg:vc+)
+Ignoring empty pin current: Ix(u1:iqneg:vc-)
+Ignoring empty pin current: Ix(u1:cl_amp:vc+)
+Ignoring empty pin current: Ix(u1:cl_amp:vc-)
+Ignoring empty pin current: Ix(u1:cl_amp:vin)
+Ignoring empty pin current: Ix(u1:gr_amp:vc+)
+Ignoring empty pin current: Ix(u1:gr_amp:vc-)
+Ignoring empty pin current: Ix(u1:gr_amp:vin)
+Ignoring empty pin current: Ix(u1:gr_src:vc+)
+Ignoring empty pin current: Ix(u1:gr_src:vc-)
+Ignoring empty pin current: Ix(u1:cl_src:vc+)
+Ignoring empty pin current: Ix(u1:cl_src:vc-)
+Ignoring empty pin current: Ix(u1:clawp:vc+)
+Ignoring empty pin current: Ix(u1:clawp:vc-)
+Ignoring empty pin current: Ix(u1:clawn:vc+)
+Ignoring empty pin current: Ix(u1:clawn:vc-)
+Ignoring empty pin current: Ix(u1:claw_amp:vc+)
+Ignoring empty pin current: Ix(u1:claw_amp:vc-)
+Ignoring empty pin current: Ix(u1:claw_amp:vin)
+Ignoring empty pin current: Ix(u1:claw_src:vc+)
+Ignoring empty pin current: Ix(u1:claw_src:vc-)
+Ignoring empty pin current: Ix(u1:ol_sense:oln)
+Ignoring empty pin current: Ix(u1:ol_sense:olp)
+Ignoring empty pin current: Ix(u1:vcm_clamp:vin+)
+Ignoring empty pin current: Ix(u1:vcm_clamp:vin-)
+Ignoring empty pin current: Ix(u1:vcm_clamp:vp+)
+Ignoring empty pin current: Ix(u1:vcm_clamp:vp-)
+Ignoring empty pin current: Ix(u2:u3:vcc)
+Ignoring empty pin current: Ix(u2:u3:vee)
+Ignoring empty pin current: Ix(u2:u3:vin+)
+Ignoring empty pin current: Ix(u2:u3:vin-)
+Ignoring empty pin current: Ix(u2:u1:vimon)
+Ignoring empty pin current: Ix(u2:u2:vc+)
+Ignoring empty pin current: Ix(u2:u2:vc-)
+Ignoring empty pin current: Ix(u2:u5:vc+)
+Ignoring empty pin current: Ix(u2:u5:vc-)
+Ignoring empty pin current: Ix(u2:u5:en)
+Ignoring empty pin current: Ix(u2:u5:mid)
+Ignoring empty pin current: Ix(u2:vccs_lim_1:vc+)
+Ignoring empty pin current: Ix(u2:vccs_lim_1:vc-)
+Ignoring empty pin current: Ix(u2:iqpos:vc+)
+Ignoring empty pin current: Ix(u2:iqpos:vc-)
+Ignoring empty pin current: Ix(u2:iqneg:vc+)
+Ignoring empty pin current: Ix(u2:iqneg:vc-)
+Ignoring empty pin current: Ix(u2:cl_amp:vc+)
+Ignoring empty pin current: Ix(u2:cl_amp:vc-)
+Ignoring empty pin current: Ix(u2:cl_amp:vin)
+Ignoring empty pin current: Ix(u2:gr_amp:vc+)
+Ignoring empty pin current: Ix(u2:gr_amp:vc-)
+Ignoring empty pin current: Ix(u2:gr_amp:vin)
+Ignoring empty pin current: Ix(u2:gr_src:vc+)
+Ignoring empty pin current: Ix(u2:gr_src:vc-)
+Ignoring empty pin current: Ix(u2:cl_src:vc+)
+Ignoring empty pin current: Ix(u2:cl_src:vc-)
+Ignoring empty pin current: Ix(u2:clawp:vc+)
+Ignoring empty pin current: Ix(u2:clawp:vc-)
+Ignoring empty pin current: Ix(u2:clawn:vc+)
+Ignoring empty pin current: Ix(u2:clawn:vc-)
+Ignoring empty pin current: Ix(u2:claw_amp:vc+)
+Ignoring empty pin current: Ix(u2:claw_amp:vc-)
+Ignoring empty pin current: Ix(u2:claw_amp:vin)
+Ignoring empty pin current: Ix(u2:claw_src:vc+)
+Ignoring empty pin current: Ix(u2:claw_src:vc-)
+Ignoring empty pin current: Ix(u2:ol_sense:oln)
+Ignoring empty pin current: Ix(u2:ol_sense:olp)
+Ignoring empty pin current: Ix(u2:vcm_clamp:vin+)
+Ignoring empty pin current: Ix(u2:vcm_clamp:vin-)
+Ignoring empty pin current: Ix(u2:vcm_clamp:vp+)
+Ignoring empty pin current: Ix(u2:vcm_clamp:vp-)
+Ignoring empty pin current: Ix(u1:u3:vcc)
+Ignoring empty pin current: Ix(u1:u3:vee)
+Ignoring empty pin current: Ix(u1:u3:vin+)
+Ignoring empty pin current: Ix(u1:u3:vin-)
+Ignoring empty pin current: Ix(u1:u1:vimon)
+Ignoring empty pin current: Ix(u1:u2:vc+)
+Ignoring empty pin current: Ix(u1:u2:vc-)
+Ignoring empty pin current: Ix(u1:u5:vc+)
+Ignoring empty pin current: Ix(u1:u5:vc-)
+Ignoring empty pin current: Ix(u1:u5:en)
+Ignoring empty pin current: Ix(u1:u5:mid)
+Ignoring empty pin current: Ix(u1:vccs_lim_1:vc+)
+Ignoring empty pin current: Ix(u1:vccs_lim_1:vc-)
+Ignoring empty pin current: Ix(u1:iqpos:vc+)
+Ignoring empty pin current: Ix(u1:iqpos:vc-)
+Ignoring empty pin current: Ix(u1:iqneg:vc+)
+Ignoring empty pin current: Ix(u1:iqneg:vc-)
+Ignoring empty pin current: Ix(u1:cl_amp:vc+)
+Ignoring empty pin current: Ix(u1:cl_amp:vc-)
+Ignoring empty pin current: Ix(u1:cl_amp:vin)
+Ignoring empty pin current: Ix(u1:gr_amp:vc+)
+Ignoring empty pin current: Ix(u1:gr_amp:vc-)
+Ignoring empty pin current: Ix(u1:gr_amp:vin)
+Ignoring empty pin current: Ix(u1:gr_src:vc+)
+Ignoring empty pin current: Ix(u1:gr_src:vc-)
+Ignoring empty pin current: Ix(u1:cl_src:vc+)
+Ignoring empty pin current: Ix(u1:cl_src:vc-)
+Ignoring empty pin current: Ix(u1:clawp:vc+)
+Ignoring empty pin current: Ix(u1:clawp:vc-)
+Ignoring empty pin current: Ix(u1:clawn:vc+)
+Ignoring empty pin current: Ix(u1:clawn:vc-)
+Ignoring empty pin current: Ix(u1:claw_amp:vc+)
+Ignoring empty pin current: Ix(u1:claw_amp:vc-)
+Ignoring empty pin current: Ix(u1:claw_amp:vin)
+Ignoring empty pin current: Ix(u1:claw_src:vc+)
+Ignoring empty pin current: Ix(u1:claw_src:vc-)
+Ignoring empty pin current: Ix(u1:ol_sense:oln)
+Ignoring empty pin current: Ix(u1:ol_sense:olp)
+Ignoring empty pin current: Ix(u1:vcm_clamp:vin+)
+Ignoring empty pin current: Ix(u1:vcm_clamp:vin-)
+Ignoring empty pin current: Ix(u1:vcm_clamp:vp+)
+Ignoring empty pin current: Ix(u1:vcm_clamp:vp-)
+Ignoring empty pin current: Ix(u2:u3:vcc)
+Ignoring empty pin current: Ix(u2:u3:vee)
+Ignoring empty pin current: Ix(u2:u3:vin+)
+Ignoring empty pin current: Ix(u2:u3:vin-)
+Ignoring empty pin current: Ix(u2:u1:vimon)
+Ignoring empty pin current: Ix(u2:u2:vc+)
+Ignoring empty pin current: Ix(u2:u2:vc-)
+Ignoring empty pin current: Ix(u2:u5:vc+)
+Ignoring empty pin current: Ix(u2:u5:vc-)
+Ignoring empty pin current: Ix(u2:u5:en)
+Ignoring empty pin current: Ix(u2:u5:mid)
+Ignoring empty pin current: Ix(u2:vccs_lim_1:vc+)
+Ignoring empty pin current: Ix(u2:vccs_lim_1:vc-)
+Ignoring empty pin current: Ix(u2:iqpos:vc+)
+Ignoring empty pin current: Ix(u2:iqpos:vc-)
+Ignoring empty pin current: Ix(u2:iqneg:vc+)
+Ignoring empty pin current: Ix(u2:iqneg:vc-)
+Ignoring empty pin current: Ix(u2:cl_amp:vc+)
+Ignoring empty pin current: Ix(u2:cl_amp:vc-)
+Ignoring empty pin current: Ix(u2:cl_amp:vin)
+Ignoring empty pin current: Ix(u2:gr_amp:vc+)
+Ignoring empty pin current: Ix(u2:gr_amp:vc-)
+Ignoring empty pin current: Ix(u2:gr_amp:vin)
+Ignoring empty pin current: Ix(u2:gr_src:vc+)
+Ignoring empty pin current: Ix(u2:gr_src:vc-)
+Ignoring empty pin current: Ix(u2:cl_src:vc+)
+Ignoring empty pin current: Ix(u2:cl_src:vc-)
+Ignoring empty pin current: Ix(u2:clawp:vc+)
+Ignoring empty pin current: Ix(u2:clawp:vc-)
+Ignoring empty pin current: Ix(u2:clawn:vc+)
+Ignoring empty pin current: Ix(u2:clawn:vc-)
+Ignoring empty pin current: Ix(u2:claw_amp:vc+)
+Ignoring empty pin current: Ix(u2:claw_amp:vc-)
+Ignoring empty pin current: Ix(u2:claw_amp:vin)
+Ignoring empty pin current: Ix(u2:claw_src:vc+)
+Ignoring empty pin current: Ix(u2:claw_src:vc-)
+Ignoring empty pin current: Ix(u2:ol_sense:oln)
+Ignoring empty pin current: Ix(u2:ol_sense:olp)
+Ignoring empty pin current: Ix(u2:vcm_clamp:vin+)
+Ignoring empty pin current: Ix(u2:vcm_clamp:vin-)
+Ignoring empty pin current: Ix(u2:vcm_clamp:vp+)
+Ignoring empty pin current: Ix(u2:vcm_clamp:vp-)
+
+Date: Mon Nov 20 20:54:20 2023
+Total elapsed time: 3.966 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 18522
+traniter = 1034
+tranpoints = 518
+accept = 518
+rejected = 248
+matrix size = 309
+fillins = 634
+solver = Normal
+Avg thread counts: 1.4/3.1/1.8/1.4
+Matrix Compiler1: 49.12 KB object code size  9.2/4.4/[2.1]
+Matrix Compiler2: 36.26 KB object code size  4.8/5.7/[2.5]
+
