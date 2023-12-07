@@ -5,7 +5,7 @@ WINDOW 0 16 -96 Bottom 2
 WINDOW 3 16 48 Top 2
 SYMATTR Value DPDT
 SYMATTR Prefix X
-SYMATTR ModelFile C:\Users\rafae\Downloads\Fonte\Modelo relay.cir
+SYMATTR ModelFile C:\Users\Aluno\Downloads\Fonte\Modelo relay.cir
 PIN -16 32 BOTTOM 8
 PINATTR PinName L1
 PINATTR SpiceOrder 1
