@@ -2807,7 +2807,7 @@
     (property "Value" "IRF540N" (at 229.87 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 238.125 26.67 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-218-3_Vertical" (at 238.125 26.67 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" (at 236.22 33.02 0)
