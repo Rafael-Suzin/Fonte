@@ -1,9 +1,5 @@
-Circuit: * D:\Downloads\Fonte4\Fonte\Fonte.asc
+Circuit: * C:\Users\Aluno\Downloads\Fonte\Fonte.asc
 
-Warning: Multiple definitions of model "2scr375p" Type: BJT
-Warning: Multiple definitions of model "bc857b" Type: BJT
-Warning: Multiple definitions of model "bc847c" Type: BJT
-Warning: Multiple definitions of model "bc847b" Type: BJT
 Instance "m:m2:1": Width narrower than recommended for a level 3 MOSFET.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -12,17 +8,40 @@ Gmin = 1.07374
 Gmin = 0.115292
 Gmin = 0.0123794
 Gmin = 0.00132923
-Gmin = 0.000142725
-Gmin = 1.5325e-05
-Gmin = 1.6455e-06
-Gmin = 1.76685e-07
-Gmin = 1.89714e-08
-Gmin = 2.03704e-09
-Gmin = 2.18725e-10
-Gmin = 2.34854e-11
-Gmin = 2.52173e-12
-Gmin = 2.70769e-13
+vernier = 0.5
+Gmin = 0.000339899
+vernier = 0.666667
+vernier = 0.888888
+Gmin = 6.56245e-005
+vernier = 1
+Gmin = 7.53781e-006
+Gmin = 8.09366e-007
+Gmin = 8.6905e-008
+Gmin = 9.33136e-009
+Gmin = 1.00195e-009
+Gmin = 1.07583e-010
+Gmin = 1.15517e-011
+Gmin = 1.24035e-012
+Gmin = 1.33182e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Heightened Def Con from 0.0640507 
+
+Date: Tue Dec 12 18:19:02 2023
+Total elapsed time: 4.250 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 125520
+traniter = 124774
+tranpoints = 44726
+accept = 29132
+rejected = 15594
+matrix size = 89
+fillins = 164
+solver = Normal
+Thread vector: 15.9/13.2[2] 7.3/5.7[2] 1.7/1.6[2] 1.0/2.4[1]  2592/500
+Matrix Compiler1: 15.13 KB object code size  6.5/4.1/[1.7]
+Matrix Compiler2: off  [1.8]/2.7/13.1
+
