@@ -1,5 +1,13 @@
-Circuit: * C:\Users\Aluno\Downloads\Fonte\Fonte.asc
+Circuit: * D:\Downloads\Fonte\Fonte\Fonte.asc
 
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Node NC_03 is floating.
+
+WARNING: Less than two connections to node nc_02.  This node is used by r26.
+WARNING: Less than two connections to node nc_03.  This node is used by r26.
 Instance "m:m2:1": Width narrower than recommended for a level 3 MOSFET.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -9,34 +17,50 @@ Gmin = 0.115292
 Gmin = 0.0123794
 Gmin = 0.00132923
 Gmin = 0.000142725
-Gmin = 1.5325e-005
-Gmin = 1.6455e-006
-Gmin = 1.76685e-007
-Gmin = 1.89714e-008
-Gmin = 2.03704e-009
-Gmin = 2.18725e-010
-Gmin = 2.34854e-011
-Gmin = 2.52173e-012
-Gmin = 2.70769e-013
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.166667
+Gmin = 1.80032e-10
+vernier = 0.222222
+Gmin = 1.12021e-10
+vernier = 0.296296
+vernier = 0.395061
+Gmin = 5.21074e-11
+vernier = 0.526748
+vernier = 0.702331
+Gmin = 1.59065e-11
+vernier = 0.936441
+Gmin = 2.47479e-12
+vernier = 1
+Gmin = 2.69149e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
+Heightened Def Con from 0.0454605 to 0.0454605
+Heightened Def Con from 0.0621875 to 0.0621875
 
-Date: Wed Dec 13 22:06:00 2023
-Total elapsed time: 0.292 seconds.
+Date: Fri Dec 15 00:06:44 2023
+Total elapsed time: 2.858 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 6950
-traniter = 6464
-tranpoints = 2709
-accept = 2289
-rejected = 420
-matrix size = 95
-fillins = 131
+totiter = 74966
+traniter = 73978
+tranpoints = 22167
+accept = 15397
+rejected = 6772
+matrix size = 97
+fillins = 206
 solver = Normal
-Thread vector: 7.3/4.6[2] 2.2/1.6[2] 1.5/1.0[2] 0.3/0.8[1]  2592/500
-Matrix Compiler1: 13.63 KB object code size  1.8/1.1/[0.5]
-Matrix Compiler2: 10.18 KB object code size  0.8/1.4/[0.5]
+Avg thread counts: 2.0/2.0/1.0/1.0
+Matrix Compiler1: 19.43 KB object code size  3.2/1.8/[1.3]
+Matrix Compiler2: 11.61 KB object code size  1.0/1.4/[0.8]
 
